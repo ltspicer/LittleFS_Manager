@@ -20,6 +20,6 @@ Then open the **serial monitor**.
 Anschliessend den **Seriellen Monitor** öffnen.
 - **ENTER** zeigt den Inhalt des LittleFS
 - Eingabe eines **Dateinamens** löscht diese
-- Eingabe eines **Verzeichnisnamens** wechselt in selbe
+- Eingabe eines **Verzeichnisnamens** wechselt in dieses Verzeichnis
 - Eingabe von **..** wechselt in das übergeordnete Verzeichnis
 - Wenn ein Verzeichnis leer ist, wird dieses gelöscht

@@ -279,7 +279,7 @@ void help() {
     Serial.println("Eingabe von .. wechselt in das übergeordnete Verzeichnis");
     Serial.println("Wenn ein Verzeichnis leer ist, wird dieses gelöscht!");
   } else {
-    Serial.println("-help zeigt die Hilfe an");
+    Serial.println("-help for help");
     Serial.println("-language de       setzt Sprache auf deutsch");
     Serial.println("-rename <old name> <new name>");
     Serial.println("ENTER shows the content of the LittleFS");

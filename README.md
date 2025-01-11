@@ -1,8 +1,8 @@
 # LittleFS_Manager
 
-Sketch for managing the LittleFS on an ESP
+Sketch for managing the LittleFS memory on an ESP
 
-Sketch zur Verwaltung des LittleFS auf einem ESPs
+Sketch zur Verwaltung des LittleFS Speichers auf einem ESPs
 
 -----------------------------------
 

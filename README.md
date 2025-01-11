@@ -7,7 +7,7 @@ Sketch zur Verwaltung des LittleFS auf einem ESPs
 -----------------------------------
 
 Upload **LittleFS_Manager.ino** to the ESP. I use **Arduino IDE** for this.
-Then open the serial monitor.
+Then open the **serial monitor**.
 - **ENTER** shows the content of the LittleFS
 - Entering a **filename** deletes it
 - Entering a **directory name** changes to this directory
@@ -17,7 +17,7 @@ Then open the serial monitor.
 -----------------------------------
 
 **LittleFS_Manager.ino** auf den ESP hochladen. Ich nutze dazu **Arduino IDE**.
-Anschliessend den Seriellen Monitor öffnen.
+Anschliessend den **Seriellen Monitor** öffnen.
 - **ENTER** zeigt den Inhalt des LittleFS
 - Eingabe eines **Dateinamens** löscht diese
 - Eingabe eines **Verzeichnisnamens** wechselt in selbe

@@ -2,7 +2,7 @@
 
 Sketch for managing the LittleFS memory on an ESP
 
-Sketch zur Verwaltung des LittleFS Speichers auf einem ESPs
+Sketch zur Verwaltung des LittleFS Speichers auf einem ESP
 
 -----------------------------------
 

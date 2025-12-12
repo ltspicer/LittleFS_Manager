@@ -8,6 +8,8 @@ Sketch zur Verwaltung des LittleFS Speichers auf einem ESP
 
 Upload **LittleFS_Manager.ino** to the ESP. I use **Arduino IDE** for this.
 Then open the **serial monitor**.
+
+Commands:
 - **-help** for help
 - **-language en** set language to english
 - **-rename** <old_name> <new_name>
@@ -21,6 +23,8 @@ Then open the **serial monitor**.
 
 **LittleFS_Manager.ino** auf den ESP hochladen. Ich nutze dazu **Arduino IDE**.
 Anschliessend den **Seriellen Monitor** öffnen.
+
+Befehle:
 - **-help** zeigt die Hilfe an
 - **-language de** setzt Sprache auf deutsch
 - **-rename** <alter_name> <neuer_name>

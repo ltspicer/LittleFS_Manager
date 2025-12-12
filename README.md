@@ -7,6 +7,7 @@ Sketch zur Verwaltung des LittleFS Speichers auf einem ESP
 -----------------------------------
 
 Upload **LittleFS_Manager.ino** to the ESP. I use **Arduino IDE** for this.
+
 Then open the **serial monitor**. Set baud rate to 9600.
 
 Commands:
@@ -22,6 +23,7 @@ Commands:
 -----------------------------------
 
 **LittleFS_Manager.ino** auf den ESP hochladen. Ich nutze dazu **Arduino IDE**.
+
 Anschliessend den **Seriellen Monitor** öffnen. Setze Baudrate auf 9600.
 
 Befehle:

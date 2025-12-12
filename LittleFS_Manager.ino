@@ -1,11 +1,12 @@
-// LittleFS Manager //
-//   Version 2.0    //
-// by D. Luginbuehl //
-//    (C) 2025      //
+//  LittleFS Manager   //
+//    Version 2.1      //
+//  by D. Luginbuehl   //
+//     (C) 2025        //
+// www.ltspiceusers.ch //
 
 #include <LittleFS.h>
 
-String language = "de";
+String language = "en";
 String currentDirectory = "/"; // Der aktuelle Pfad
 
 void setup() {
@@ -13,7 +14,7 @@ void setup() {
   delay(5000);
 
   if (!LittleFS.begin()) {
-    Serial.println("LittleFS konnte nicht initialisiert werden.");
+    Serial.println(language == "de" ? "LittleFS konnte nicht initialisiert werden." : "LittleFS could not be initialized.");
     return;
   }
 
@@ -290,4 +291,3 @@ void help() {
   }
 Serial.println();
 }
-

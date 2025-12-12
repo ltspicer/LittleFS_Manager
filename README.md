@@ -35,3 +35,52 @@ Befehle:
 - Eingabe eines **Verzeichnisnamens** wechselt in dieses Verzeichnis
 - Eingabe von **..** wechselt in das übergeordnete Verzeichnis
 - Wenn ein Verzeichnis leer ist, wird dieses gelöscht
+
+-----------------------------------
+
+-----------------------------------
+
+### Flashing:
+
+**Option 1:**
+
+Upload the ino file using Arduino IDE.
+
+**Option 2:**
+
+Upload the bin file using **esptool.exe (Windows)** or **esptool (Linux)**.
+
+Example for Windows:
+
+**esptool.exe -vv -cd nodemcu -cb 115200 -bz 4M -cp COM7 -ca 0x00000 -cf LittleFS_Manager.ino.bin**
+
+Example for Linux:
+
+**sudo ./esptool -vv -cd nodemcu -cb 115200 -bz 4M -cp /dev/ttyUSB0 -ca 0x00000 -cf LittleFS_Manager.ino.bin**
+
+
+**Port** ( /dev/ttyUSB0 or COM7 ) **adjust** if necessary.
+
+-----------------------------------
+
+### Flashen:
+
+**Variante 1:**
+
+Mittels Arduino IDE die ino Datei hochladen.
+
+**Variante 2:**
+
+Mittels **esptool.exe (Windows)** oder **esptool (Linux)** die bin Datei hochladen.
+
+Beispiel für Windows:
+
+**esptool.exe -vv -cd nodemcu -cb 115200 -bz 4M -cp COM7 -ca 0x00000 -cf LittleFS_Manager.ino.bin**
+
+Beispiel für Linux:
+
+**sudo ./esptool -vv -cd nodemcu -cb 115200 -bz 4M -cp /dev/ttyUSB0 -ca 0x00000 -cf LittleFS_Manager.ino.bin**
+
+
+**Port** ( /dev/ttyUSB0 bzw COM7 ) ggf. **anpassen**.
+
